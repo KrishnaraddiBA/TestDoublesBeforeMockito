@@ -6,7 +6,7 @@ public class BookService {
 
     private Bookrepository bookRepository;
 
-    BookService(Bookrepository bookRepository){
+    public BookService(Bookrepository bookRepository){
         this.bookRepository=bookRepository;
     }
 
